@@ -1,0 +1,154 @@
+ .html-open-tag::before{
+    font-style: oblique;
+    content: "<html>";
+   padding-left: 0rem;
+    left: 12px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    color: var(--tags-color);
+} 
+.html-open-tag::after{
+    content: "</html>";
+   padding-left: 0rem;
+   font-size: 18px;
+   color: var(--tags-color);
+    font-family: 'La Belle Aurore', cursive;
+    font-style: oblique;
+} 
+.body-open-tag::before{
+    content: "<body>";
+    left: 20px;
+    padding-left: 1rem ;
+    font-family: 'La Belle Aurore', cursive;
+   color: var(--tags-color);
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.body-open-tag::after{
+    content: "</body>";
+    left: 20px;
+    padding-left: 1rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+   color: var(--tags-color);
+   font-style: oblique;
+} 
+.h1-open-tag::before{
+    content: "<h1>";
+   color: var(--tags-color);
+   font-size: 20px;
+    font-family: 'La Belle Aurore', cursive;
+padding-left: 2rem;
+font-style: oblique;
+}
+.h1-open-tag::after{
+    content: "</h1>";
+    color: var(--tags-color);
+    font-family: 'La Belle Aurore', cursive;
+    padding-left: 2rem;
+    font-style: oblique;
+}
+.h2-open-tag::before{
+    content: "<h2>";
+    left: 20px; 
+    color: var(--tags-color);
+    padding-left: 0rem ;
+    font-weight: normal;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-style: oblique;
+}
+.h2-open-tag::after{
+    content: "</h2>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+   color: var(--tags-color);
+   font-style: oblique;
+
+}
+.p-open-tag::before{
+    content: "<p>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+  color: var(--tags-color);
+  font-style: oblique;
+}
+.p-open-tag::after{
+    content: "</p>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+color: var(--tags-color);
+ font-style: oblique; 
+}
+.selection-tag::before{
+    content: "<selection>";
+    left: 18px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+color: var(--tags-color); 
+font-style: oblique;  
+}
+.selection-tag::after{
+    content: "</selection>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+color: var(--tags-color);
+font-style: oblique;   
+}
+.form-open-tag::before{
+    content: "<form>";
+    left: 18px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+color: var(--tags-color);
+font-style: oblique;    
+}
+.form-open-tag::after{
+    content: "</form>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+color: var(--tags-color); 
+-style: oblique;   
+}
+
+.article-tag::before{
+    content: "<article>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--tags-color);
+    font-style: oblique;
+}
+.article-tag::after{
+    content: "</article>";
+    left: 20px;
+    padding-left: 0rem ;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--tags-color);
+    font-style: oblique;
+}

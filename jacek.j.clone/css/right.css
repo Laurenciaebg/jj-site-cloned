@@ -1,0 +1,66 @@
+.right-contain{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content:space-between;
+    align-items: center;
+    z-index:100;
+    margin-top: 15px;
+    margin: left 8rem;;
+    gap: 10px;
+    width: 100px;
+    top:100;
+    bottom: 5px;
+   
+
+}
+
+.sound-icon{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    top: 0px; 
+    bottom: 0px; 
+    height: 50px;
+    right: 0px;
+    margin: 0px;
+    padding: 10px; 
+     /* border:dashed blue; */
+   background: rgba(17, 15, 16, 0.1);
+}
+.sound-icon svg{
+    margin: 5px;
+    height: 25px;
+    color: var(--main-pink-color);
+
+}
+.sound-text p span{
+    position: relative;
+    top: 0px;
+
+}
+.honors{
+    position:fixed;
+    right: -2px;
+    top:100px;
+    /* left: 48.2%; */
+    /* border: dashed blue; */
+    animation-duration: 1s;
+    animation-name: honnors;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.honors img{
+    width: 90px;
+    height:auto;
+}
+@keyframes honnors {
+    from{
+        right:-50%;
+    }
+    to{
+       right: 0;
+    }
+}
